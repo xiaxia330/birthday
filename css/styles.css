@@ -40,20 +40,20 @@ p{
 }
 
 .skill-row {
-  width: 50%;
+  width: 60%;
   margin: 100px auto 100px auto;
   text-align: left;
   line-height: 2;
 }
 
 .firstimg {
-  width: 25%;
+  width: 35%;
   float: left;
   margin-right: 30px;
 }
 
 .secondimg {
-  width: 25%;
+  width: 35%;
   float: right;
 }
 
@@ -136,7 +136,7 @@ p{
 .my-border{
   border-style: none;
   border-bottom-style: dotted;
-  width: 3%;
+  width: 6%;
   height: 1px;
   border-width: 5px;
   color: #EAF6F6;
