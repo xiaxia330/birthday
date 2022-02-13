@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-  width: 30%;
+  width: 50%;
   margin: 0 auto 0 auto;
   font-family: "Sacramento", sans-serif;
   padding: 15px;
@@ -31,7 +31,7 @@ h3 {
 p{
   color: pink;
   font-size: 1.5rem;
-  width:40%;
+  width:60%;
   margin:0 auto 0 auto;
 }
 .a {
