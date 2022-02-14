@@ -1,174 +1,109 @@
-body {
-  font-size: 1em;
-}
-
-h1 {
-  width: 30%;
-  margin: 0 auto 0 auto;
-  font-family: "Sacramento", sans-serif;
-  padding: 15px;
-  color: pink;
-  line-height: 2;
-  font-size: 3rem;
-}
-
-.zhu-mei {
-  font-family: "ZCOOL KuaiLe", sans-serif;
-  font-size: 4.5rem;
-}
-
-h2 {
-  font-size: 2.5rem;
-  color: pink;
-  font-family: "ZCOOL XiaoWei", sans-serif;
-}
-
-h3 {
-  color: pink;
-}
-
-p {
-  color: pink;
-  font-size: 1.5rem;
-  width: 40%;
-  margin: 0 auto 0 auto;
-}
-
-.a {
-  color: #11999E;
-}
-
-.skill-row {
-  width: 70%;
-  margin: 30px auto 260px auto;
-  line-height: 2;
-}
-
-.firstimg {
-  width: 40%;
-  float: left;
-  margin-right: 30px;
-  margin-bottom: 50px;
-}
-
-.secondimg {
-  width: 16%;
-  float: right;
-}
-
-.container {
-  text-align: center;
-}
-
-.top-cloud {
-  width: 300px;
-  position: absolute;
-  top: 50px;
-  right: 400px;
-}
-
-.my-hobby {
-  color: #40514E;
-  width: 65%;
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
 
-}
+<head>
+  <meta charset="utf-8">
+  <title>生日快乐妈咪</title>
+</head>
 
-.bottom-cloud {
-  width: 300px;
-  position: absolute;
-}
+<link rel="stylesheet" href="css/styles.css">
+<link rel="icon" href="favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href=" preconnect" href="https://fonts.googleapis.com">
 
-.bottom-container {
-  margin-top: 100px;
-  background-color: #66BFBF;
-  padding: 50px;
-}
+<link rel=" preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Festive&family=Sacramento&family=ZCOOL+KuaiLe&family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Festive&family=Sacramento&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
 
-.btn {
-  background: #11cdd4;
-  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
-  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
+<link href="https://fonts.googleapis.com/css2?family=Festive&family=Sacramento&display=swap" rel="stylesheet">
 
-.btn:hover {
-  background: #30e3cb;
-  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
-  text-decoration: none;
-}
+<body>
 
-.footer-link {
-  color: #11999E;
-  margin: 20px;
-}
+  <div class="container">
 
-.myname {
-  color: #EAF6F6;
-  margin: 40px auto 20px auto;
-}
 
-.contact-me {
-  width: 20%;
-  margin: 0 auto 0 auto;
-  padding: 20px;
-  line-height: 20px;
-}
+    <h1>Happy Birthday</h1>
+    <h1 class="zhu-mei">祝蔡美人生日快乐</h1>
+    <p>最近学的一个网页设计</p>
+    <p>(目前还有点粗糙，但每一个细节都是我一个个敲出来的。看起来其实比较简单，后面的代码还是不少的，请看下面我粘贴的代码👇🏻。
+      而且我还在学习，所以一直在改进，耶✌🏻)</p>
+    <img class="bottom-cloud" src="images/cloud.png" alt="">
+    <img class="mountain " src="images/mountain.png" alt="">
 
-.last-sentence {
-  margin-bottom: 40px;
-}
+    <hr class="my-border">
 
-.my-border {
-  border-style: none;
-  border-bottom-style: dotted;
-  width: 3%;
-  height: 1px;
-  border-width: 5px;
-  color: pink;
-  margin-top: 200px;
-  margin-bottom: 80px;
-}
+    <h2 class="my-hobby">大概有两页这么多的代码👇🏻</h2>
+    <img class="code-pic" src="images/code.jpeg" alt="">
+  </div>
 
-.code-pic {
-  width: 60%;
-  margin: 0auto 20px auto;
-  text-align: center;
-}
+  <div class="middle-container">
+    <div class="profile"><br>
 
-.secondpara {
-  width: 100%;
-  color: #54BAB9;
 
-}
+      <p class="my-hobby">以前一直觉得写代码很难很酷炫，现在回头看看两周已经开始上手了，看来人什么年纪都不能给自己设限啊，
+        自己都不相信自己能够做到，别人怎么相信你，所以我觉得只要是我妈妈想要的东西，想做到的事情，都不在话下的，我肯定超级支持的，我们就互相鼓励，有爱有梦想🌈</p>
+    </div>
 
-.kongxi {
-  margin: 100px auto 28px auto;
-  font-size: 2rem;
-}
 
-.plz {
-  text-align: left;
-  color: #54BAB9;
-}
+    <hr class="my-border">
 
-.last-buttom{
-  background-color: #54BAB9;
-  color: white;
-  border-color: white;
-  border-width: 20%;
-}
+
+
+    <div class="skills">
+      <h1>那些傻乎乎很可爱的回忆</h1>
+
+      <div class="skill-row">
+        <img class="firstimg" src="images/1.jpeg" alt="">
+        <p class="plz">还记得这个旅游吗，好像是我第一次出国？</p>
+        <p class="plz">嘻嘻天天吃旅游餐加老干妈，感觉去了一趟假泰国。想再去一次吃正宗的泰国菜</p>
+      </div>
+
+      <div class="skill-row">
+        <h3 class="kongxi">画风开始渐渐失控</h3>
+        <img class="secondimg" src="images/ren2.jpeg" alt="">
+        <img class="secondimg" src="images/ren3.jpeg" alt="">
+        <img class="secondimg" src="images/ren1.jpeg" alt="">
+        <img class="secondimg" src="images/ren4.jpeg" alt="">
+
+        <p class="secondpara">就是喜欢东倒西歪，站没站相坐没坐相，谁家的仙女这么好看，咦背景是谁家 这么好看 </p><br>
+      </div>
+
+      <div class="skill-row">
+        <img class="firstimg" src="images/ma.jpeg" alt="">
+        <p class="plz">其实我家仙女长这样，前面谁拍的，就是嫉妒仙女的美貌！</p>
+        <p class="plz">嘻嘻</p>
+      </div>
+    </div>
+
+    <hr class="my-border">
+
+    <div class="contact-me">
+      <h2>来做个小评价吧，这次实在是匆忙，因为还没学完所有的东西，好多地方都变形了</h2>
+      <h3>请阁下选择符合自己的选项</h3>
+
+      <form action="secondpage.html" method="post">
+        <input class="last-buttom" type="submit" name="" value="这个网站真真是牛气哄哄啊">
+      </form>
+
+      <form class="" action="thirdpage.html" method="post">
+        <input class="last-buttom" type="submit" name="" value="不是特别好看，功能还需要提高">
+      </form>
+
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+
+    <p class="myname">© 版权归Shanshan Xia，也就是夏宝宝所有</p>
+  </div>
+
+
+
+</body>
+
+</html>
